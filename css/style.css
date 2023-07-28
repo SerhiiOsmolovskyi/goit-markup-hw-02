@@ -122,8 +122,8 @@ h3 {
   color:var(--text-color);
 }
 
-.contact-list:hover,
-.contact-list:focus {
+.contact-link:hover,
+.contact-link:focus {
   color: var(--hover-focus);
 }
 
@@ -222,7 +222,7 @@ h3 {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var();
+  color: var(--text-color);
 }
 
 .footer {
