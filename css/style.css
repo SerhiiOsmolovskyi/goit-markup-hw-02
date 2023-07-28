@@ -61,7 +61,25 @@ body {
     
   }
 
+h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
 
+h3 {
+  color: var(--primary-color);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+
+  
 .accent-color {
     color: var(--accent-color);
   }
