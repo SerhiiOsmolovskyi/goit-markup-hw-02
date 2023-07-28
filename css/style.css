@@ -22,10 +22,6 @@ button {
   }
 
 .filter-btn{
-  width:fit-content;
-  height: 48px;
-  padding: 12px 24px 12px 24px;
-  border-radius: 4px;
   background: linear-gradient(0deg, #F4F4FD, #F4F4FD);
   border: 1px solid #E7E9FC;
   font-family: 'Roboto', sans-serif;
@@ -45,6 +41,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--text-color);
+  background-color: var(--secondary-color);
     
   }
 
