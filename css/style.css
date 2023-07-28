@@ -1,0 +1,142 @@
+:root {
+  --primary-color: #2E2F42;
+  --secondary-color: #ffffff;
+  --accent-color: #4D5AE5;
+  --text-color: #434455;
+}
+
+.list {
+  list-style-type: none;
+  color: inherit;
+  }
+  
+.link {
+  text-decoration: none;
+  font-style: normal;
+  color: var(--primary-color);
+
+  }
+  
+button {
+  cursor: pointer;
+  }
+
+.filter-btn{
+  width:fit-content;
+  height: 48px;
+  padding: 12px 24px 12px 24px;
+  border-radius: 4px;
+  background: linear-gradient(0deg, #F4F4FD, #F4F4FD);
+  border: 1px solid #E7E9FC;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  text-align: center;
+  color:  var(--accent-color);
+}
+
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--text-color);
+    
+  }
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+h3 {
+  color: var(--primary-color);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+
+  
+.accent-color {
+    color: var(--accent-color);
+  }
+
+.logotype {
+  text-transform: uppercase;
+  font-weight:800;
+  color: var(--primary-color);
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+}
+
+.logotype-text-bold {
+  font-family: 'Raleway', sans-serif;
+  color: var(--accent-color);
+
+}
+
+.menu-list {
+  color: var(--primary-color);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  font-weight: 500;
+}
+.contact-list {
+  color: var(--primary-color);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  font-weight: 400;
+}
+
+
+.menu-link:hover,
+.menu-link:focus {
+  color: var(--accent-color);
+}
+
+.active {
+  color: var(--accent-color);
+}
+
+.hero-top-block {
+  background-color: var(--primary-color);
+}
+
+.main-title {
+  color: var(--secondary-color);
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+}
+
+.order-service-btn {
+  background-color: var(--accent-color);
+  color: var(--secondary-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  font-family: 'Roboto', sans-serif;
+}
+
+.footer {
+  background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
+
+.footer .logotype {
+  color: var(--secondary-color);
+}
