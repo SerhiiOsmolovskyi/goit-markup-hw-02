@@ -43,6 +43,12 @@ button {
   color:  var(--accent-color);
 }
 
+.filter-btn:hover, 
+.filter-btn:focus {
+  color: var(--secondary-color);
+  background-color: var(--hover-focus);
+}
+
 
 body {
   font-family: 'Roboto', sans-serif;
@@ -109,6 +115,15 @@ h3 {
   font-style: normal;
 }
 
+.contact-list {
+  color:var(--text-color);
+}
+
+.contact-list:hover,
+.contact-list:focus {
+  color: var(--hover-focus);
+}
+
 .menu-link {
   color: var(--primary-color);
 }
@@ -119,9 +134,6 @@ h3 {
   color: var(--hover-focus);
 }
 
-.active {
-  color: var(--accent-color);
-}
 
 .hero {
   background-color: var(--primary-color);
@@ -142,6 +154,7 @@ h3 {
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
+  text-align: center;
 }
 
 .order-service-btn {
@@ -206,6 +219,7 @@ h3 {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: var(--text-color);
 }
 
 .footer {
